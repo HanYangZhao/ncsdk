@@ -43,7 +43,7 @@ prereqs:
 	@chmod +x uninstall-opencv.sh
 
 .PHONY: install
-install: prereqs uninstallopencv
+install: prereqs
 	@echo "\nmake install starting."
 	./install.sh
 
